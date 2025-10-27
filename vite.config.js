@@ -20,6 +20,9 @@ export default defineConfig(({ mode }) => {
       build: {
         outDir: 'dist',
       },
+<<<<<<< HEAD
      
+=======
+>>>>>>> 913186bdb32d44339277b90b71ecb9f21bf8441d
   };
 });
