@@ -4,9 +4,6 @@ import * as path from 'path';
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd());
-
-  console.log('Loaded env:', env); // 🧠 Debugging output
-
   return {
     plugins: [react()],
     resolve: {
@@ -20,9 +17,5 @@ export default defineConfig(({ mode }) => {
       build: {
         outDir: 'dist',
       },
-<<<<<<< HEAD
-     
-=======
->>>>>>> 913186bdb32d44339277b90b71ecb9f21bf8441d
   };
 });
